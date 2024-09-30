@@ -1,3 +1,5 @@
+// ignore_for_file: prefer_const_constructors
+
 import 'package:budget_tracker_application_2/utils/icons_list.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
@@ -48,9 +50,8 @@ class TransactionCard extends StatelessWidget {
               child: Center(
                 child: FaIcon(
                     appIcons.getExpenseCategoryIcons("${data['category']}"),
-                    color: data['type'] == 'credit'
-                        ? Colors.green
-                        : Colors.red),
+                    color:
+                        data['type'] == 'credit' ? Colors.green : Colors.red),
               ),
             ),
           ),
@@ -58,11 +59,10 @@ class TransactionCard extends StatelessWidget {
             children: [
               Expanded(child: Text("${data['title']}")),
               Text(
-                " ${data['type'] == 'credit' ? '+' : '-' }\$ ${data['amount']}",
+                " ${data['type'] == 'credit' ? '+' : '-'}\$ ${data['amount']}",
                 style: TextStyle(
-                  color: data['type'] == 'credit'
-                        ? Colors.green
-                        : Colors.red),
+                    color:
+                        data['type'] == 'credit' ? Colors.green : Colors.red),
               ),
             ],
           ),
