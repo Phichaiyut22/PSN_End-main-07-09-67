@@ -1,16 +1,24 @@
-# budget_tracker_application_2
+ภาษาไทย
+PSN_Budget_Management เป็นแอปพลิเคชันสำหรับจัดการรายรับรายจ่ายของผู้ใช้งาน โดยมีฟีเจอร์หลักดังนี้:
 
-A new Flutter project.
+ระบบผู้ใช้งาน
 
-## Getting Started
+ลงทะเบียน (Sign Up)
+เข้าสู่ระบบ (Login)
+ลืมรหัสผ่าน (Forget Password)
+ออกจากระบบ (Logout)
+การยืนยันตัวตน (Authentication)
 
-This project is a starting point for a Flutter application.
+ใช้ Firebase Authentication เพื่อยืนยันสิทธิ์การเข้าถึงของผู้ใช้งาน
+การจัดการข้อมูลผู้ใช้งาน
 
-A few resources to get you started if this is your first Flutter project:
+บันทึกข้อมูลรายรับและรายจ่ายใน Firebase Realtime Database
+เพิ่มและอัปเดตโปรไฟล์ผู้ใช้งาน รวมถึงอัปโหลดรูปภาพโปรไฟล์
+การแสดงผลข้อมูล
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+แสดงรายรับรายจ่ายแบบรายเดือน
+ดึงข้อมูลหุ้นผ่าน API และแสดงข้อมูลหุ้นยอดนิยม 10 อันดับ
+การจัดการข้อมูลค่าใช้จ่าย
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+ผู้ใช้งานสามารถลบรายการค่าใช้จ่ายที่ไม่ต้องการได้
+มีระบบยืนยันความต้องการก่อนลบข้อมูล เพื่อลดความผิดพลาด
