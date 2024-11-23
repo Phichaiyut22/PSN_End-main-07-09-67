@@ -22,3 +22,28 @@ PSN_Budget_Management เป็นแอปพลิเคชันสำหร�
 
 ผู้ใช้งานสามารถลบรายการค่าใช้จ่ายที่ไม่ต้องการได้
 มีระบบยืนยันความต้องการก่อนลบข้อมูล เพื่อลดความผิดพลาด
+
+
+PSN_Budget_Management is a user-friendly application designed to help manage income and expenses efficiently. Key features include:
+
+User Management
+
+Sign Up
+Login
+Forget Password
+Logout
+Authentication
+
+Utilizes Firebase Authentication to secure user access.
+Data Management
+
+Stores income and expense data in Firebase Realtime Database.
+Allows users to upload and update profile images.
+Data Visualization
+
+Displays income and expense summaries on a monthly basis.
+Integrates with a stock API to display the top 10 trending stocks.
+Expense Management
+
+Users can delete unwanted expense records.
+Includes a confirmation system to prevent accidental deletions.
