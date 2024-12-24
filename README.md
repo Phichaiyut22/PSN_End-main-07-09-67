@@ -47,3 +47,6 @@ Expense Management
 
 Users can delete unwanted expense records.
 Includes a confirmation system to prevent accidental deletions.
+
+![image](https://github.com/user-attachments/assets/54f4a62a-efdb-4c6e-9e59-3a83c593d781)
+
